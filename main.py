@@ -19,7 +19,7 @@ def chat():
         if not message:
             return jsonify({"error": "Message is empty"}), 400
 
-        api_key = os.environ.get("GROQ_API_KEY")
+        api_key = os.environ.get("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")
         if not api_key:
             return jsonify({"error": "AI key is not configured"}), 500
 
